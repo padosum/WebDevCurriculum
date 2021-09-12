@@ -49,7 +49,7 @@
     * `git stash`: 수정한 내용을 임시로 저장합니다.
     * `git stash pop`을 이용해 `stash`로 임시 저장한 내용을 다시 복구합니다. 
 * **git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?**
-  * [참고하여 정리 필요](https://opentutorials.org/module/2676/15212)
+  * [https://padosum.dev/How-Does-Git-Work](https://padosum.dev/How-Does-Git-Work)
 * **리모트 git 저장소에 원하지 않는 파일이 올라갔을 때 이를 되돌리려면 어떻게 해야 할까요?**
   * `git reset`이나 `git revert` 명령을 사용합니다. 
     * `git reset`은 되돌린 버전 이후 버전이 모두 사라지고, `git revert`는 되돌린 버전 이후 버전은 유지되고 `revert` 되었다는 사실을 담은 commit이 새로 추가됩니다.  
